@@ -4,9 +4,14 @@
   "description": "A Real Time Chat Application",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "private": true,
   "author": "Toan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.15.2",
+    "hbs": "4.0.1",
+    "morgan": "1.8.1"
+  }
 }
